@@ -1,0 +1,49 @@
+@import "./App.scss";
+@import "./pages/home/Home.scss";
+@import "./pages/login/Login.scss";
+@import "./pages/register/Register.scss";
+@import "./pages/watch/Watch.scss";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'font-1';
+  src: url('./assets/NetflixSansRegular.ttf');
+}
+
+body{
+  font-family: 'font-1';
+}
+
+button{
+  font-family: "font-1";
+  cursor: pointer;
+}
+input{
+  font-family: "font-1";
+  &::placeholder{
+    font-family: 'font-1';
+  }
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+
+input[type='submit']{
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
